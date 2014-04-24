@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:8889
--- Generation Time: Apr 23, 2014 at 08:51 PM
+-- Generation Time: Apr 23, 2014 at 09:29 PM
 -- Server version: 5.5.34
 -- PHP Version: 5.3.28
 
@@ -26,7 +26,7 @@ CREATE TABLE `mod_mime_type` (
   `mime` varchar(255) NOT NULL,
   `ext` varchar(8) NOT NULL,
   `link` text NOT NULL,
-  `linkTitle` varchar(255) NOT NULL,
+  `link_title` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=686 ;
 
@@ -34,7 +34,7 @@ CREATE TABLE `mod_mime_type` (
 -- Dumping data for table `mod_mime_type`
 --
 
-INSERT INTO `mod_mime_type` (`id`, `name`, `mime`, `ext`, `link`, `linkTitle`) VALUES
+INSERT INTO `mod_mime_type` (`id`, `name`, `mime`, `ext`, `link`, `link_title`) VALUES
 (1, '3D Crossword Plugin', 'application/vnd.hzn-3d-crossword', '.x3d', 'http://www.iana.org/assignments/media-types/application/vnd.hzn-3d-crossword', 'IANA: 3D Crossword Plugin'),
 (2, '3GP', 'video/3gpp', '.3gp', 'http://en.wikipedia.org/wiki/3GP_and_3G2', 'Wikipedia: 3GP'),
 (3, '3GP2', 'video/3gpp2', '.3g2', 'http://en.wikipedia.org/wiki/3GP_and_3G2', 'Wikipedia: 3G2'),
@@ -361,7 +361,7 @@ INSERT INTO `mod_mime_type` (`id`, `name`, `mime`, `ext`, `link`, `linkTitle`) V
 (324, 'MICROSEC e-Szign¢', 'application/vnd.eszigno3+xml', '.es3', 'http://www.iana.org/assignments/media-types/application/vnd.eszigno3+xml', 'IANA: MICROSEC e-Szign¢'),
 (325, 'Microsoft Access', 'application/x-msaccess', '.mdb', 'http://en.wikipedia.org/wiki/Microsoft_Access', 'Wikipedia: Microsoft Access'),
 (326, 'Microsoft Advanced Systems Format (ASF)', 'video/x-ms-asf', '.asf', 'http://en.wikipedia.org/wiki/Advanced_Systems_Format', 'Wikipedia: Advanced Systems Format (ASF)');
-INSERT INTO `mod_mime_type` (`id`, `name`, `mime`, `ext`, `link`, `linkTitle`) VALUES
+INSERT INTO `mod_mime_type` (`id`, `name`, `mime`, `ext`, `link`, `link_title`) VALUES
 (327, 'Microsoft Application', 'application/x-msdownload', '.exe', 'http://en.wikipedia.org/wiki/EXE', 'Wikipedia: EXE'),
 (328, 'Microsoft Artgalry', 'application/vnd.ms-artgalry', '.cil', 'http://www.iana.org/assignments/media-types/application/vnd.ms-artgalry', 'IANA: MS Artgalry'),
 (329, 'Microsoft Cabinet File', 'application/vnd.ms-cab-compressed', '.cab', 'http://www.iana.org/assignments/media-types/application/vnd.ms-cab-compressed', 'IANA: MS Cabinet File'),
@@ -671,7 +671,7 @@ INSERT INTO `mod_mime_type` (`id`, `name`, `mime`, `ext`, `link`, `linkTitle`) V
 (633, 'Video CD', 'application/x-cdlink', '.vcd', 'http://en.wikipedia.org/wiki/Video_CD', 'Wikipedia: Video CD'),
 (634, 'Viewport+', 'application/vnd.vsf', '.vsf', 'http://www.iana.org/assignments/media-types/application/vnd.vsf', 'IANA: Viewport+'),
 (635, 'Virtual Reality Modeling Language', 'model/vrml', '.wrl', 'http://en.wikipedia.org/wiki/VRML', 'Wikipedia: VRML');
-INSERT INTO `mod_mime_type` (`id`, `name`, `mime`, `ext`, `link`, `linkTitle`) VALUES
+INSERT INTO `mod_mime_type` (`id`, `name`, `mime`, `ext`, `link`, `link_title`) VALUES
 (636, 'VirtualCatalog', 'application/vnd.vcx', '.vcx', 'http://www.iana.org/assignments/media-types/application/vnd.vcx', 'IANA: VirtualCatalog'),
 (637, 'Virtue MTS', 'model/vnd.mts', '.mts', 'http://www.iana.org/assignments/media-types/model/vnd.mts', 'IANA: MTS'),
 (638, 'Virtue VTU', 'model/vnd.vtu', '.vtu', 'http://www.iana.org/assignments/media-types/model/vnd.vtu', 'IANA: VTU'),
